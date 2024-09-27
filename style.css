@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container-fluid {
+    width: 95% !important;
+}
+
+section {
+    padding: 5rem 0 3rem;
+}
+
+.bg-darkblue {
+    background-color: #303D4E;
+}
+
+.navbar a {
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    font-size: 28px !important;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: #1abc9c;
+    transition-duration: 0.2s;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #1abc9c !important;
+}
+
+.banner {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.bn-content {
+    padding: 3rem;
+}
+
+.bn-content h1 {
+    font-size: 4rem;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-star-fill {
+    font-size: 32px;
+}
+
+.bi-dash {
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.portfolio,
+.contact {
+    color: #303D4E;
+}
+
+.modal-content {
+    color: #303D4E !important;
+    padding: 0 3rem;
+}
+
+.portfolio img,
+.modal-body img {
+    height: 250px;
+    width: 350px;
+}
+
+.portfolio .p-item {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.portfolio .p-item:hover .p-item-caption {
+    background-color: rgba(26, 188, 156, 0.9);
+    position: absolute;
+    transition: all 0.25s ease-in-out;
+}
+
+.p-item-caption {
+    position: fixed;
+}
+
+.p-item-caption-content {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.about {
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-custom {
+    padding: 12px 24px !important;
+    border-width: 2px !important;
+}
+
+#floatingTextarea {
+    height: 10rem;
+}
+
+.form-floating label {
+    opacity: 85%;
+    font-size: 18px;
+}
+
+.btn-theme {
+    background-color: #1abc9c !important;
+    color: #fff !important;
+    border: 1px solid #1abc9c!important;
+}
+
+.info h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.info-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-icons a {
+    font-size: 32px;
+    color: #fff;
+}
+
+.info-icons a:hover {
+    color: #1abc9c;
+    transition-duration: 0.2s;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.st-bs {
+    color: #1abc9c;
+}
+
+.st-bs:hover {
+    opacity: 80%;
+    transition-duration: 0.25s;
+}
